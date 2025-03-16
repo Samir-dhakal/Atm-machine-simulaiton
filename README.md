@@ -39,7 +39,7 @@ This project is a simple ATM Machine Simulation built using C++. It allows users
 - Develop a GUI-based version.
 
 ## Author
-- **[Samir Dhakal]**
+- **Samir Dhakal**
 - **GitHub:** [https://github.com/Samir-dhakal]
 - **Email:** [samirdhakal.9279@gmail.com]
 
