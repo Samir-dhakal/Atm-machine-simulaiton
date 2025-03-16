@@ -12,30 +12,7 @@ This project is a simple ATM Machine Simulation built using C++. It allows users
 - Basic user authentication with MPIN (future implementation)
 - Placeholder functions for money withdrawal, deposit, and loan requests
 
-## Technologies Used
-- C++
-- File Handling (`fstream`)
-- Object-Oriented Programming (OOP)
-- Random Number Generation (`rand()`)
-- Console Input/Output (`cin`, `cout`)
-- Basic Data Encryption (MPIN security)
 
-## Installation & Usage
-### Prerequisites
-- A C++ compiler (e.g., GCC, MSVC, Clang)
-- A terminal or command prompt
-
-### Compilation
-To compile the program, use the following command:
-```sh
- g++ atm_machine_simulation.cpp -o atm
-```
-
-### Running the Program
-After compilation, run the program:
-```sh
- ./atm
-```
 
 ## How to Use
 1. Run the program.
@@ -62,9 +39,9 @@ After compilation, run the program:
 - Develop a GUI-based version.
 
 ## Author
-- **[Your Name]**
-- **GitHub:** [Your GitHub Profile]
-- **Email:** [Your Email]
+- **[Samir Dhakal]**
+- **GitHub:** [https://github.com/Samir-dhakal]
+- **Email:** [samirdhakal.9279@gmail.com]
 
 ## License
 This project is open-source and available under the MIT License.
