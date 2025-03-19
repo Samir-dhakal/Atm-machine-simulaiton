@@ -1,0 +1,3 @@
+NAME           Phone_NO      AGE   Accoutn No   MPIN  Bank Balance
+samir dhakal   9874562310    12    1000019882   1001  1452      
+susan dhakal   7894562130    12    1000020659   5555  2345      
