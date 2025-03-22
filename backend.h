@@ -81,6 +81,8 @@ public:
         cout << "\n Congrulations ! Now , you can use the atm service provided by the bank " << endl;
     }
 };
+
+
 int withdraw(ATM &a)
 {
 
