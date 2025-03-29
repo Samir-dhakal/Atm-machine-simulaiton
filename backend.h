@@ -167,3 +167,38 @@ void enterdata(person &p, ATM &a)
     gfile << left << setw(10) << a.account_balance << "\n";
     gfile.close();
 }
+// funtion to deposit the money in the bank accout
+int deposit(ATM &a)
+{
+
+    ifstream gfile("data.txt");
+    if (gfile.is_open())
+    {
+        string account_no;
+        string line;
+        cout << "enter the your account number :";
+        cin >> account_no;
+        bool found = false;
+        long long file_account_number;
+        string name, phone, mpin;
+        int age;
+        while (getline(gfile, line))
+        {
+            // getline(gfile, line);
+            if (line.find(account_no) == string::npos)
+            {
+                found = true;
+                cout << "Hello sir you are welcome to our bank ";
+                cout << "enter the amount you want to deposit";
+                int deposited_amout;
+                cin >> deposited_amout;
+
+                break; // stop searching on found
+            }
+            if (found = true)
+            {
+                break;
+            }
+        }
+    }
+}
