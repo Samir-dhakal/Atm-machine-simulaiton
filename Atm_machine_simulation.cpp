@@ -4,6 +4,7 @@
 using namespace std;
 void enterdata(person &p1, ATM &a1);
 int withdraw(ATM &a);
+int deposit(ATM &a);
 int main()
 {
     person p1;
@@ -32,7 +33,7 @@ int main()
     }
     case 3:
     {
-        cout << "This function is under development. We will be back soon.";
+        deposit(a1);
         break;
     }
     case 4:
