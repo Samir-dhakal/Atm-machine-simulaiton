@@ -7,9 +7,7 @@ int withdraw(ATM &a);
 int deposit(ATM &a);
 int main()
 {
-    person p1;
-    student s1;
-    ATM a1;
+   
     cout << "Press according to intex given below\n";
     cout << "1:TO open bank account\n";
     cout << "2:TO withdraw money form bank account\n";
