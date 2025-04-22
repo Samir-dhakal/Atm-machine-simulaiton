@@ -40,7 +40,6 @@ This project is a simple ATM Machine Simulation built using C++. It allows users
 
 ## Author
 - **Samir Dhakal**
-- **GitHub:** [https://github.com/Samir-dhakal]
 - **Email:** [samirdhakal.9279@gmail.com]
 
 ## License
