@@ -19,7 +19,7 @@ int main()
     int index;
     cin >> index;
 
-    switch (index)
+    switch (index)// switch case to handle the operation .
     {
     case 1:
     {
