@@ -33,7 +33,7 @@ int main()
     }
     case 3:
     {
-        deposit(a1);
+        deposit(a1);// to deposit the amoutn in the bank account 
         break;
     }
     case 4:
