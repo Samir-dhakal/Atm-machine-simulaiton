@@ -7,7 +7,7 @@
 #include <ctime>
 
 using namespace std;
-long long randomnumbergenerator()
+long long randomnumbergenerator()//used to allocate accoutn number to the user 
 {
     srand(time(0));
     int random = rand() % 9999999999LL + 1000000000LL;
@@ -81,7 +81,7 @@ public:
         cout << "\n Congrulations ! Now , you can use the atm service provided by the bank " << endl;
     }
 };
-int withdraw(ATM &a)
+int withdraw(ATM &a)//funtion to withdraw the money for the atm 
 {
 
     ifstream gfile("data.txt");
@@ -97,8 +97,8 @@ int withdraw(ATM &a)
         int age;
         while (getline(gfile, line))
         {
-            // getline(gfile, line);
-            if (line.find(account_no) == string::npos)
+            
+            if (line.find(account_no) == string::npos)//to find account number 
             {
                 found = true;
                 cout << "Hello sir you are welcome to our bank ";
@@ -153,7 +153,7 @@ void enterdata(person &p, ATM &a)
 
     string line;
     string filename = "data.txt";
-    if (isFileEmpty(filename))
+    if (isFileEmpty(filename))//to check wheater the file is empty to print heading 
     {
         gfile << left << setw(15) << "NAME" << left << setw(14) << "Phone_NO" << left << setw(6) << "AGE" << left << setw(13) << "Accoutn No" << left << setw(6) << "MPIN" << left << setw(10) << "Bank Balance" << endl;
     }

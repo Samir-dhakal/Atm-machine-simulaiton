@@ -1,0 +1,5 @@
+ID   NAME                CONTACT NO  AGE  TIME OF ADMISSION   
+3    raj pandit          1284626638  55         Sun Feb 16 19:09:10 2025
+
+554  raju dhakal         -695373362  89         Sun Feb 16 19:09:10 2025
+
